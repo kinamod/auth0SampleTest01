@@ -1,15 +1,16 @@
 import React from "react";
 
-import logo from "../assets/logo.svg";
+import logo from "../assets/wraplogo.svg";
 
 const Hero = () => (
-  <div className="text-center hero my-5">
+  <div className="text-center hero my-5" style={{ 
+      backgroundImage: `url("https://wrap.org.uk/sites/default/files/styles/crop_image_style_4_1/public/2022-04/homepage-tree-sea-beach-banner-2000x647.jpg")` 
+    }}>
     <img className="mb-3 app-logo" src={logo} alt="React logo" width="120" />
-    <h1 className="mb-4">React.js Sample Project</h1>
+    <h1 className="mb-4">Wrap.org.uk</h1>
 
     <p className="lead">
-      This is a sample application that demonstrates an authentication flow for
-      an SPA, using <a href="https://reactjs.org">React.js</a>
+      Making the world a more sustainable place</a>
     </p>
   </div>
 );
