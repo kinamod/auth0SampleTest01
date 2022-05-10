@@ -10,7 +10,7 @@ const Hero = () => (
     <h1 className="mb-4">Wrap.org.uk</h1>
 
     <p className="lead">
-      Making the world a more sustainable place</a>
+      Making the world a more sustainable place
     </p>
   </div>
 );
